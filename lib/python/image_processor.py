@@ -4,6 +4,16 @@ import sys
 
 import Image
 
+CATEGORIES = {"Science": [0.0, 0.33],
+              "Art": [0.33, 0.66],
+              "Citizenship": [0.66, 1.0]}
+RATINGS = {0: [0.0, 0.166],
+           1: [0.166, 0.33],
+           2: [0.33, 0.5],
+           3: [0.5, 0.66],
+           4: [0.66, 0.833],
+           5: [0.833, 1.0]}
+
 
 class ColourProcessor(object):
 
@@ -68,13 +78,30 @@ def get_colour_fractions(image_filename):
     return colour_median_xfrac_map, colour_median_yfrac_map
 
 
+def process_colour_fractions(xfrac_map, yfrac_map):
+    """Turn colour xfrac and yfrac to ratings, categories."""
+    category_rating_map = {}
+    for colour in xfrac_map:
+        for category, min_max in CATEGORIES.items():
+            if min_max[0] < yfrac_map[colour] < min_max[1]:
+                break
+        for rating, min_max in RATINGS.items():
+            if min_max[0] < xfrac_map[colour] < min_max[1]:
+                break
+        if (category in category_rating_map and
+            rating < category_rating_map[category]):
+            continue 
+        category_rating_map[category] = rating
+    return category_rating_map
+
+
 def main():
     xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1])
-    f = open("colourfractions.txt", 'w')
-    for colour in xfrac_map.keys():
-        print colour, ":", xfrac_map[colour], ",", yfrac_map[colour]
-        f.write(str(colour) + ": " + str(xfrac_map[colour]) + ", " +
-                str(yfrac_map[colour]))
+    category_rating_map = process_colour_fractions(xfrac_map, yfrac_map)
+    f = open("ratings.txt", 'w')
+    for category, rating in category_rating_map.items():
+        print category, ":", rating
+        f.write(str(category) + " : " + str(rating) + "\n")
     f.close()
 
 if __name__ == "__main__":
