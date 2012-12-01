@@ -123,15 +123,17 @@ def main():
     xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1],
                                                 xfrac_bounds=[0.3, 1.0])
     category_rating_map = process_colour_fractions(xfrac_map, yfrac_map)
-    f = open("ratings.txt", 'w')
-    for category, rating in category_rating_map.items():
-        print category, ":", rating
-        f.write(str(category) + " : " + str(rating) + "\n")
+    f = open("image_processor_output.txt", 'w')
+    outputs = []
+    for category in ["Science", "Art", "Citizenship"]:
+        rating = category_rating_map[category]
+        outputs.append(str(rating))
     xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1],
                                                 xfrac_bounds=[0.0, 0.33])
     wheel_choice = process_colour_fractions_wheel(xfrac_map, yfrac_map)
-    print "wheel :", wheel_choice
-    f.write("wheel : " + str(wheel_choice) + "\n")
+    outputs.append(wheel_choice)
+    print ",".join(outputs)
+    f.write(",".join(outputs) + "\n")
     f.close()
 
 
