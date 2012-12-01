@@ -9,7 +9,7 @@ class ColourProcessor(object):
 
     """Class to get x and y pixel fractions for given colours."""
 
-    COLOURS = ["pink", "yellow", "green"]
+    COLOURS = ["pink", "green", "yellow"]
 
     def __init__(self, pixarray, size_x, size_y):
         self.xfrac = {}
@@ -22,12 +22,16 @@ class ColourProcessor(object):
         for i in range(self.size_x):
             for j in range(self.size_y):
                 a = self.pixarray[i, j]
+                if (0.9 < float(a[0]) / max([1, float(a[1])]) < 1.1 and
+                    0.9 < float(a[1]) / max([1, float(a[2])]) < 1.1 and
+                    0.9 < float(a[2]) / max([1, float(a[0])]) < 1.1):
+                    continue
                 for colour in self.COLOURS:
                     if getattr(self, "is_" + colour)(a[0], a[1], a[2]):
                         self.xfrac.setdefault(colour, [])
                         self.xfrac[colour].append(float(i) / float(self.size_x))
                         self.yfrac.setdefault(colour, [])
-                        self.yfrac[colour].append(float(i) / float(self.size_y))
+                        self.yfrac[colour].append(float(j) / float(self.size_y))
                         break
         return self.xfrac, self.yfrac
         
@@ -57,7 +61,6 @@ def get_colour_fractions(image_filename):
     colour_median_yfrac_map = {}
     for colour, fractions in xfrac_map.items():
         fractions.sort()
-        print colour, len(fractions)
         colour_median_xfrac_map[colour] = fractions[len(fractions)/2]
     for colour, fractions in yfrac_map.items():
         fractions.sort()
