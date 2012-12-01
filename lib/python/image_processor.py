@@ -33,8 +33,8 @@ class ColourProcessor(object):
         
     def is_pink(self, red, green, blue):
         """Return whether the object is pink or not."""
-        return (red > 1.4 * blue and red > 1.4 * green and 
-                (blue < 1.4 * green and green < 1.4 * blue))
+        return (red > 1.2 * blue and red > 1.2 * green and 
+                blue + green < 1.5 * red)
 
     def is_yellow(self, red, green, blue):
         """Return whether the object is yellow or not."""
@@ -43,8 +43,8 @@ class ColourProcessor(object):
 
     def is_green(self, red, green, blue):
         """Return whether the object is green or not."""
-        return (green > 1.4 * red and green > 1.4 * blue and
-                (blue < 1.4 * red and red < 1.4 * blue))
+        return (green > 1.2 * red and green > 1.2 * blue and
+                red + blue < 1.5 * green)
 
 
 def get_colour_fractions(image_filename):
@@ -57,6 +57,7 @@ def get_colour_fractions(image_filename):
     colour_median_yfrac_map = {}
     for colour, fractions in xfrac_map.items():
         fractions.sort()
+        print colour, len(fractions)
         colour_median_xfrac_map[colour] = fractions[len(fractions)/2]
     for colour, fractions in yfrac_map.items():
         fractions.sort()
