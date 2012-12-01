@@ -81,6 +81,8 @@ def get_colour_fractions(image_filename):
 def process_colour_fractions(xfrac_map, yfrac_map):
     """Turn colour xfrac and yfrac to ratings, categories."""
     category_rating_map = {}
+    for category in CATEGORIES:
+        category_rating_map[category] = min(RATINGS.keys())
     for colour in xfrac_map:
         for category, min_max in CATEGORIES.items():
             if min_max[0] < yfrac_map[colour] < min_max[1]:
