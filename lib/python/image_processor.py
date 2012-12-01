@@ -4,32 +4,37 @@ import sys
 
 import Image
 
-CATEGORIES = {"Science": [0.0, 0.33],
+CATEGORIES = {"Science": [0.66, 1.0],
               "Art": [0.33, 0.66],
-              "Citizenship": [0.66, 1.0]}
-RATINGS = {0: [0.0, 0.166],
-           1: [0.166, 0.33],
-           2: [0.33, 0.5],
-           3: [0.5, 0.66],
-           4: [0.66, 0.833],
-           5: [0.833, 1.0]}
+              "Citizenship": [0.0, 0.33]}
+RATINGS = {5: [0.0, 0.166],
+           4: [0.166, 0.33],
+           3: [0.33, 0.5],
+           2: [0.5, 0.66],
+           1: [0.66, 0.833],
+           0: [0.833, 1.0]}
 
 
 class ColourProcessor(object):
 
     """Class to get x and y pixel fractions for given colours."""
 
-    COLOURS = ["pink", "green", "yellow"]
+    COLOURS = ["pink", "green", "yellow", "blue"]
 
-    def __init__(self, pixarray, size_x, size_y):
+    def __init__(self, pixarray, size_x, size_y, xfrac_bounds=None):
         self.xfrac = {}
         self.yfrac = {}
+        self.size_x_start = 0
         self.size_x = size_x
+        if xfrac_bounds is not None:
+            self.size_x_start += self.size_x * xfrac_bounds[0]
+            self.size_x *= xfrac_bounds[1]
         self.size_y = size_y
         self.pixarray = pixarray
 
     def process(self):
-        for i in range(self.size_x):
+        max_x = float(self.size_x - self.size_x_start)
+        for i in range(int(self.size_x_start), int(self.size_x)):
             for j in range(self.size_y):
                 a = self.pixarray[i, j]
                 if (0.9 < float(a[0]) / max([1, float(a[1])]) < 1.1 and
@@ -39,7 +44,7 @@ class ColourProcessor(object):
                 for colour in self.COLOURS:
                     if getattr(self, "is_" + colour)(a[0], a[1], a[2]):
                         self.xfrac.setdefault(colour, [])
-                        self.xfrac[colour].append(float(i) / float(self.size_x))
+                        self.xfrac[colour].append((float(i) - self.size_x_start) / max_x)
                         self.yfrac.setdefault(colour, [])
                         self.yfrac[colour].append(float(j) / float(self.size_y))
                         break
@@ -60,15 +65,21 @@ class ColourProcessor(object):
         return (green > 1.2 * red and green > 1.2 * blue and
                 red + blue < 1.5 * green)
 
+    def is_blue(self, red, green, blue):
+        """Return whether the object is blue or not."""
+        return (blue > 1.2 * red and blue > 1.2 * green and
+                red + green < 1.5 * blue)        
 
-def get_colour_fractions(image_filename):
+def get_colour_fractions(image_filename, xfrac_bounds=None):
     im = Image.open(image_filename)
     pixload = im.load()
     pixlist = im.getdata()
-    colour_processor = ColourProcessor(pixload, im.size[0], im.size[1])
+    colour_processor = ColourProcessor(pixload, im.size[0], im.size[1],
+                                       xfrac_bounds)
     xfrac_map, yfrac_map = colour_processor.process()
     colour_median_xfrac_map = {}
     colour_median_yfrac_map = {}
+    
     for colour, fractions in xfrac_map.items():
         fractions.sort()
         colour_median_xfrac_map[colour] = fractions[len(fractions)/2]
@@ -97,14 +108,32 @@ def process_colour_fractions(xfrac_map, yfrac_map):
     return category_rating_map
 
 
+def process_colour_fractions_wheel(xfrac_map, yfrac_map):
+    """Return the lowest-down colour."""
+    max_fraction = -1
+    max_colour = None
+    for colour, fraction in yfrac_map.items():
+        if fraction > max_fraction:
+            max_colour = colour
+            max_fraction = fraction
+    return max_colour
+
+
 def main():
-    xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1])
+    xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1],
+                                                xfrac_bounds=[0.3, 1.0])
     category_rating_map = process_colour_fractions(xfrac_map, yfrac_map)
     f = open("ratings.txt", 'w')
     for category, rating in category_rating_map.items():
         print category, ":", rating
         f.write(str(category) + " : " + str(rating) + "\n")
+    xfrac_map, yfrac_map = get_colour_fractions(sys.argv[1],
+                                                xfrac_bounds=[0.0, 0.33])
+    wheel_choice = process_colour_fractions_wheel(xfrac_map, yfrac_map)
+    print "wheel :", wheel_choice
+    f.write("wheel : " + str(wheel_choice) + "\n")
     f.close()
+
 
 if __name__ == "__main__":
     main()
