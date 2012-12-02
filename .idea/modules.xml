@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TagDetection/TagDetection.iml" filepath="$PROJECT_DIR$/TagDetection/TagDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaggingSite/TaggingSite.iml" filepath="$PROJECT_DIR$/TaggingSite/TaggingSite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource_viewer_site/resource_viewer_site.iml" filepath="$PROJECT_DIR$/resource_viewer_site/resource_viewer_site.iml" />
+    </modules>
+  </component>
+</project>
+
