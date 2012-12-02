@@ -1,0 +1,693 @@
+2012-12-01 15:43:44 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:44:34 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:45:46 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:45:47 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:45:47 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:45:47 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:46:04 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 15:46:51 Error: [MissingControllerException] Controller class TagsController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 16:24:04 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 10]
+2012-12-01 16:24:04 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:25:08 Error: [MissingControllerException] Controller class JobResourcesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 16:25:32 Error: Fatal Error (64): Cannot redeclare class JobResources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\JobResource.php, line 10]
+2012-12-01 16:25:32 Error: [FatalErrorException] Cannot redeclare class JobResources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:27:38 Error: Fatal Error (64): Cannot redeclare class JobResources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\JobResource.php, line 10]
+2012-12-01 16:27:38 Error: [FatalErrorException] Cannot redeclare class JobResources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:27:39 Error: Fatal Error (64): Cannot redeclare class JobResources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\JobResource.php, line 10]
+2012-12-01 16:27:39 Error: [FatalErrorException] Cannot redeclare class JobResources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:27:39 Error: Fatal Error (64): Cannot redeclare class JobResources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\JobResource.php, line 10]
+2012-12-01 16:27:39 Error: [FatalErrorException] Cannot redeclare class JobResources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:27:53 Error: Fatal Error (64): Cannot redeclare class JobResources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\JobResource.php, line 10]
+2012-12-01 16:27:53 Error: [FatalErrorException] Cannot redeclare class JobResources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:29:15 Error: [MissingControllerException] Controller class JobResourcesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 16:29:32 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 10]
+2012-12-01 16:29:32 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:29:35 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 10]
+2012-12-01 16:29:35 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:29:54 Error: [MissingActionException] Action ResourcesController::index() could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 16:30:04 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 10]
+2012-12-01 16:30:04 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 10, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:32:03 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:32:03 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:32:33 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:32:33 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:32:34 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:32:34 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:33:10 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:33:10 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:34:50 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:34:50 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:34:53 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:34:53 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:36:37 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:36:37 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:38 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:38 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:42 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:42 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:42 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:42 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:43 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:43 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:43 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:43 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:43 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:43 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:44 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:44 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:44 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:44 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:44 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:44 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:44 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:44 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:45 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:45 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:45 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:45 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:45 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:45 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:45 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:45 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:46 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:46 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:46 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:46 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:47 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:47 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:47 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:47 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:47 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:47 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:48 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:48 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:49 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:49 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:49 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:49 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:39:49 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:39:49 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:14 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:14 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:15 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:15 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:15 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:15 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:15 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:15 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:15 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:15 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:16 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:16 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:16 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:16 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:17 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:17 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:24 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:24 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:24 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:24 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:25 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:25 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:25 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:25 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 16:40:26 Error: Fatal Error (64): Cannot redeclare class Resources in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Model\Resource.php, line 11]
+2012-12-01 16:40:26 Error: [FatalErrorException] Cannot redeclare class Resources
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Users\Theo\I...', 11, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 17:30:45 Error: [MissingControllerException] Controller class ResourcesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 17:34:36 Error: [MissingActionException] Action ResourcesController::index() could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 17:34:50 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\Controller\ResourcesController.php, line 4]
+2012-12-01 17:34:50 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\Theo\I...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\Theo\I...', 4, Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\Theo\I...', 4, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 17:34:57 Error: [MissingActionException] Action ResourcesController::index() could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 17:35:30 Error: [MissingTableException] Table indudtries for model Indudtry was not found in datasource default.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(3179): Model->setSource('indudtries')
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1389): Model->schema()
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1375): Model->hasField('title', false)
+#4 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(863): Model->hasField(Array)
+#5 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(431): Model->__get('displayField')
+#6 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(137): Scaffold->_associations()
+#7 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(ResourcesController), Object(CakeRequest))
+#8 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#9 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-12-01 17:43:27 Error: [MissingControllerException] Controller class IndudtriesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 17:55:31 Error: [MissingControllerException] Controller class DisciplinesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 18:45:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ResourcesIndudtry.resource_id' in 'field list'
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Resourc...', Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Resourc...', Array, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Resourc...', false)
+#4 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1846): Model->find('all', Array)
+#6 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1743): Model->_saveMulti(Array, '1', Object(Mysql))
+#7 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(243): Model->save(Array)
+#8 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#9 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#10 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(IndudtriesController), Object(CakeRequest))
+#11 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#12 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndudtriesController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-12-01 18:48:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Office' for key 'name'
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `po...', Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `po...')
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Indudtry), Array, Array)
+#4 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(243): Model->save(Array)
+#5 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(IndudtriesController), Object(CakeRequest))
+#8 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#9 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndudtriesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-12-01 19:24:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ResourcesTag.resource_id' in 'where clause'
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Resourc...', Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Resourc...', Array, Array)
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Resourc...', false)
+#4 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1846): Model->find('all', Array)
+#6 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1743): Model->_saveMulti(Array, '1', Object(Mysql))
+#7 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(243): Model->save(Array)
+#8 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#9 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#10 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(ResourcesController), Object(CakeRequest))
+#11 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#12 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-12-01 19:32:24 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Health, education and social care' for key 'name'
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `po...', Array)
+#2 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `po...')
+#3 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Discipline), Array, Array)
+#4 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(243): Model->save(Array)
+#5 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(395): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
+#6 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#7 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(DisciplinesController), Object(CakeRequest))
+#8 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#9 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DisciplinesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-12-02 11:05:13 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 C:\Users\Theo\IntellijWorkspace\podders\TaggingSite\cakephpversion\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
